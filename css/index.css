@@ -8,8 +8,8 @@
 /* Header css */
 .main-header{
     box-sizing: content-box;
-    height: 90vh;
-    border:1px solid black;
+    
+    /* border:1px solid black; */
     
 }
 .links{
@@ -20,39 +20,86 @@
     align-items: center;
  }
 .links a{
-    border:1px solid black;
+    /* border:1px solid black; */
     text-decoration: none;
     color:grey;
     font-size: 20px;
 }
 .mainSec {
-    border:1px solid black;
+    /* border:1px solid red; */
+    box-sizing: content-box;   
     display: flex;
     flex-direction: row;
-    height: 50vh
+    justify-content: space-evenly;
+    padding-bottom:2% ;
+    border-bottom:2px solid grey ;
+    
 } 
 .mainSec div { 
-    width: 25%;
-    border:1px solid black;
+    
+    /* border:1px solid red; */
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    justify-content: center;
     
     
 }
 .mainSec .caption{
-    border:1px solid black;
-    height: 50vh;
+    
+    
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
+    flex-wrap: wrap;
     align-items: center;
     text-align: center;
     
+    
+}
+.mainSec h1{
+    font-size: 80px;
+    margin:0 auto;
 }
 .mainSec .caption button{
     text-align: center;
     width:max-content;
-}/* */
-/* content css */
+    
+}
 
+/* */
+/* content css */
+.content-section{
+    /* border: 1px red solid; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    padding-bottom: 2%;
+    border-bottom: grey 2px solid;
+}
+/* .content-section div{ 
+    border: 1px black solid;    
+}*/
+.content-section .top-box{
+    width:40% ;
+}
+.content-section .bottom-box{
+    width: 25%;
+}
+.content-section .midImg{
+    width: 100%;
+}
+.content-section .middle-img{
+    width: 100%;
+}
 /* footer css */
+/* footer{ 
+    border: 1px black solid;
+}*/
+/* footer p{ 
+    border: 1px red solid;
+}*/
+footer .copyright{
+    text-align: center;
+}
+/* media Q */
