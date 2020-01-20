@@ -1,21 +1,30 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
-/* *{
-    border:1px solid red;
-}*/
+/**/ *{
+    /* border:1px solid red; */
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+}
 .container{
-    margin:0 2vh;
+    width:90%;
+    padding:20px 1% ;
+    margin:0 auto;
 }
+
 /* Header css */
-.main-header{
-    box-sizing: content-box;
+/*  */
+header {
+    box-sizing:content-box;
     
-    /* border:1px solid black; */
+    /* border:1px solid black;*/ 
     
 }
-.links{
+nav, .links{
     box-sizing: content-box;
     width: 100%;
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: space-evenly;
     align-items: center;
  }
@@ -26,8 +35,8 @@
     font-size: 20px;
 }
 .mainSec {
-    /* border:1px solid red; */
-    box-sizing: content-box;   
+    /* border:1px solid red;*/ 
+
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -35,31 +44,27 @@
     border-bottom:2px solid grey ;
     
 } 
-.mainSec div { 
+
+.mainSec {
     
-    /* border:1px solid red; */
+    width: 100%;
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    
-    
-}
-.mainSec .caption{
-    
-    
-    display: flex;
-    flex-direction:column;
-    flex-wrap: wrap;
+    flex-direction:row;
     align-items: center;
     text-align: center;
-    
-    
 }
-.mainSec h1{
-    font-size: 80px;
-    margin:0 auto;
+.mainSec .caption{
+    /* border:1px solid red; */
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+.mainSec .caption h1 {
+	font-size: 75px;
+	padding: 5px;
+	
+  }
 .mainSec .caption button{
     text-align: center;
     width:max-content;
@@ -103,3 +108,88 @@ footer .copyright{
     text-align: center;
 }
 /* media Q */
+/* table view */
+@media (max-width: 800px) {
+   
+    nav, .links{
+        /* border: lightcoral 1px solid; */
+        box-sizing: content-box;
+        order:2;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+     }
+     
+    .mainSec img{
+        display:none;
+    }
+    .mainSec {
+    
+        width: 100%;
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        text-align: center;
+    }
+    .mainSec .caption{
+        /* border:1px solid red; */
+        width:inherit;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+/* mobile view */
+@media (max-width: 500px) {
+    nav, .links{
+        /* border: lightcoral 1px solid; */
+        box-sizing: content-box;
+        order:2;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+     }
+     .mainSec .caption{
+        /* border:1px solid red; */
+        width:inherit;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+     .mainSec .caption h1 {
+        font-size: 60px;
+        padding: 5px;
+        
+      }
+      nav a {
+        border-top: grey 1px solid;  
+        border-bottom: grey 1px solid;
+          width: 100%;
+         text-align: center;
+          padding:5% 0;
+      }
+      nav img {
+          padding-bottom: 5%;
+      }
+      .content-section{
+        /* border: 1px red solid; */
+        display: flex;
+        flex-direction: column;
+        flex-wrap:wrap;
+        justify-content: space-evenly;
+        padding-bottom: 2%;
+        border-bottom: grey 2px solid;
+    }
+    .content-section .top-box{
+        width:80% ;
+    }
+    .content-section .bottom-box{
+        width: 80%;
+    }
+}
