@@ -1,229 +1,220 @@
     /* Use your own code or past solution for Great Idea Web Page CSS here! */
-
-
-/**/
-
-* {
-    /* border:1px solid red; */
-    padding: 0;
-    margin: 0;
-    max-width: 100%;
-}
-
-h1 {
-    padding: 2% 0;
-}
-
-h3 {
-    padding: 2% 0;
-}
-
-.container {
-    width: 90%;
-    padding: 20px 1%;
-    margin: 0 auto;
-}
-
-
-/* Header css */
-
-
-/*  */
-
-header {
-    box-sizing: content-box;
-    /* border:1px solid black;*/
-}
-
-nav {
-    display: flex;
-    flex-direction: row;
-}
-
-.links {
-    box-sizing: content-box;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.links a {
-    /* border:1px solid black; */
-    text-decoration: none;
-    color: grey;
-    font-size: 20px;
-}
-
-a:hover {
-    color: red;
-}
-
-.mainSec {
-    /* border:1px solid red;*/
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    padding-bottom: 2%;
-    border-bottom: 2px solid grey;
-}
-
-.mainSec {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    text-align: center;
-}
-
-.mainSec .caption {
-    /* border:1px solid red; */
-    width: 48%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.mainSec .caption h1 {
-    font-size: 75px;
-    padding: 5px;
-}
-
-.btn {
-    text-align: center;
-    width: max-content;
-}
-
-.btn:hover {
-    background-color: aqua;
-}
-
-
-/* */
-
-
-/* content css */
-
-.content-section {
-    /* border: 1px red solid; */
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    border-bottom: grey 2px solid;
-    padding-bottom: 2%;
-}
-
-
-/* .content-section div{ 
+    /**/
+    
+    * {
+        /* border:1px solid red; */
+        padding: 0;
+        margin: 0;
+        max-width: 100%;
+    }
+    
+    h1 {
+        padding: 2% 0;
+    }
+    
+    h3 {
+        padding: 2% 0;
+    }
+    
+    .container {
+        width: 90%;
+        padding: 20px 1%;
+        margin: 0 auto;
+    }
+    /* Header css */
+    /*  */
+    
+    header {
+        box-sizing: content-box;
+        /* border:1px solid black;*/
+    }
+    
+    nav {
+        display: flex;
+        flex-direction: row;
+        padding-top: 2%;
+    }
+    
+    .links {
+        box-sizing: content-box;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-bottom: 2%;
+    }
+    
+    .links a {
+        /* border:1px solid black; */
+        text-decoration: none;
+        color: grey;
+        font-size: 20px;
+    }
+    
+    a:hover {
+        color: red;
+    }
+    
+    .mainSec {
+        /* border:1px solid red;*/
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding-bottom: 2%;
+        border-bottom: 2px solid grey;
+    }
+    
+    .mainSec {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .mainSec .caption {
+        /* border:1px solid red; */
+        width: 48%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .mainSec .caption h1 {
+        font-size: 75px;
+        padding: 5px;
+    }
+    
+    .btn {
+        text-align: center;
+        width: max-content;
+    }
+    
+    .btn:hover {
+        background-color: aqua;
+    }
+    
+    .header-Img {
+        height: inherit;
+    }
+    /* */
+    /* content css */
+    
+    .content-section {
+        /* border: 1px red solid; */
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        border-bottom: grey 2px solid;
+        padding-bottom: 2%;
+    }
+    /* .content-section div{ 
     border: 1px black solid;    
 }*/
-
-.content-section .top-box {
-    width: 40%;
-}
-
-.content-section .bottom-box {
-    width: 25%;
-}
-
-.content-section .midImg {
-    padding: 5% 0;
-    width: 100%;
-}
-
-.content-section .middle-img {
-    width: 100%;
-}
-
-
-/* footer css */
-
-
-/* footer{ 
+    
+    .content-section .top-box {
+        width: 40%;
+    }
+    
+    .content-section .bottom-box {
+        width: 25%;
+    }
+    
+    .content-section .midImg {
+        padding: 5% 0;
+        width: 100%;
+    }
+    
+    .content-section .middle-img {
+        width: 100%;
+    }
+    /* footer css */
+    /* footer{ 
     border: 1px black solid;
 }*/
-
-footer {
-    margin-top: 1.5%;
-}
-
-footer .mb {
-    /* border: 1px red solid; */
-    padding: 1% 0;
-}
-
-.email {
-    padding-bottom: 2%;
-}
-
-.num {
-    padding-bottom: 1.5%;
-}
-
-footer .copyright {
-    text-align: center;
-}
-
-
-/* services page css */
-
-.servImg {
-    width: 100%;
-}
-
-.servHead {
-    /* border: #333 1px solid; */
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 2%;
-}
-
-.servHead .desc {
-    /* border: green 1px solid; */
-    width: 100%;
-    padding: 2% 0;
-}
-
-.main-header .services-header-img {
-    /* border: blue 1px solid;*/
-    width: 100%;
-    height: 250px;
-}
-
-.servSec {
-    /* border: solid purple 1px; */
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding: 2% 0;
-    border-top: gray 2px solid;
-    border-bottom: grey 2px solid;
-}
-
-.servSec .section-1 {
-    /* border: solid purple 1px; */
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.box {
-    border: black solid 1px;
-    background-color: lightgrey;
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.btn {
-    width: max-content;
-    margin: 1.5%;
+    
+    footer {
+        margin-top: 1.5%;
+    }
+    
+    footer .mb {
+        /* border: 1px red solid; */
+        padding: 1% 0;
+    }
+    
+    .email {
+        padding-bottom: 2%;
+    }
+    
+    .num {
+        padding-bottom: 1.5%;
+    }
+    
+    footer .copyright {
+        text-align: center;
+    }
+    /* services page css */
+    
+    .servImg {
+        width: 100%;
+    }
+    
+    .servHead {
+        /* border: #333 1px solid; */
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2%;
+    }
+    
+    .servHead .desc {
+        /* border: green 1px solid; */
+        width: 100%;
+        padding: 2% 0;
+    }
+    
+    .main-header .services-header-img {
+        /* border: blue 1px solid;*/
+        width: 100%;
+        height: 250px;
+    }
+    
+    .servSec {
+        /* border: solid purple 1px; */
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 2% 0;
+        border-top: gray 2px solid;
+        border-bottom: grey 2px solid;
+    }
+    
+    .servSec .section-1 {
+        /* border: solid purple 1px; */
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
+    .box {
+        border: black solid 1px;
+        background-color: lightgrey;
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 1.5% 0;
+    }
+    
+    .btn {
+        width: max-content;
+        margin: 1.5%;
+    }
+    
     .servSection-2 {
         display: flex;
         flex-direction: row;
@@ -231,6 +222,7 @@ footer .copyright {
         justify-content: space-between;
         padding: 2% 0;
     }
+    
     .servSection-2 .servDesc {
         /* border: black solid 1px; */
         width: 40%;
@@ -238,18 +230,21 @@ footer .copyright {
         flex-direction: column;
         justify-content: space-between;
     }
+    
     .servSection-2 ul {
         /* border: black solid 1px; */
         width: 80%;
         align-items: center;
         list-style-position: inside;
     }
+    
     .serList li {
         /* border: black solid 1px; */
         padding: 1%;
     }
     /* media Q */
     /* table view */
+    
     @media (max-width: 800px) {
         nav {
             flex-direction: column-reverse;
@@ -289,6 +284,7 @@ footer .copyright {
         }
     }
     /* mobile view */
+    
     @media (max-width: 500px) {
         nav {
             flex-direction: column-reverse;
