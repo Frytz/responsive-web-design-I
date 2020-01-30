@@ -1,4 +1,4 @@
-/* Use your own code or past solution for Great Idea Web Page CSS here! */
+    /* Use your own code or past solution for Great Idea Web Page CSS here! */
 
 
 /**/
@@ -219,158 +219,144 @@ footer .copyright {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: 2%;
 }
 
-.box button {
+.btn {
     width: max-content;
     margin: 1.5%;
-}
-
-.servSection-2 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    padding: 2% 0;
-}
-
-.servSection-2 .servDesc {
-    /* border: black solid 1px; */
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.servSection-2 ul {
-    /* border: black solid 1px; */
-    width: 80%;
-    align-items: center;
-    list-style-position: inside;
-}
-
-.serList li {
-    /* border: black solid 1px; */
-    padding: 1%;
-}
-
-
-/* media Q */
-
-
-/* table view */
-
-@media (max-width: 800px) {
-    nav {
-        flex-direction: column-reverse;
-        align-items: center;
-    }
-    .links {
-        /* border: lightcoral 1px solid; */
-        padding-top: 2%;
-    }
-    .mainSec img {
-        display: none;
-    }
-    .mainSec {
-        width: 100%;
-        flex-direction: column;
-    }
-    .mainSec .caption {
-        /* border:1px solid red; */
-        width: inherit;
-        flex-direction: column;
-        align-items: center;
-    }
-    /* services page */
-    .main-header .services-header-img {
-        /* border: red 1px solid;*/
-        display: none;
-    }
-    .servSection-2 img {
-        display: none;
+    .servSection-2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        padding: 2% 0;
     }
     .servSection-2 .servDesc {
         /* border: black solid 1px; */
-        width: 100%;
+        width: 40%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
     }
-}
-
-
-/* mobile view */
-
-@media (max-width: 500px) {
-    nav {
-        flex-direction: column-reverse;
-    }
-    .links {
-        /* border: lightcoral 1px solid; */
-        box-sizing: content-box;
-        width: 100%;
-        flex-direction: column;
-    }
-    .mainSec .caption {
-        /* border:1px solid red; */
-        width: inherit;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .mainSec .caption h1 {
-        font-size: 60px;
-        padding: 5px;
-    }
-    nav a {
-        border-top: grey 1px solid;
-        border-bottom: grey 1px solid;
-        width: 100%;
-        text-align: center;
-        padding: 5% 0;
-    }
-    nav img {
-        padding-bottom: 5%;
-    }
-    .content-section {
-        /* border: 1px red solid; */
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        padding-bottom: 2%;
-        border-bottom: grey 2px solid;
-    }
-    .content-section .top-box {
-        width: 90%;
-        padding: 2% 0;
-    }
-    .content-section .bottom-box {
-        width: 90%;
-        padding: 2% 0;
-    }
-    /* services page */
-    .servSec {
-        /* border: solid purple 1px; */
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        padding: 2% 0;
-        border-top: gray 2px solid;
-        border-bottom: grey 1px solid;
-    }
-    .box {
-        width: 100%;
-    }
-    .servSection-2 img {
-        display: none;
-    }
-    .servSection-2 .servDesc {
+    .servSection-2 ul {
         /* border: black solid 1px; */
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
+        width: 80%;
+        align-items: center;
+        list-style-position: inside;
     }
-}
+    .serList li {
+        /* border: black solid 1px; */
+        padding: 1%;
+    }
+    /* media Q */
+    /* table view */
+    @media (max-width: 800px) {
+        nav {
+            flex-direction: column-reverse;
+            align-items: center;
+        }
+        .links {
+            /* border: lightcoral 1px solid; */
+            padding-top: 2%;
+        }
+        .mainSec img {
+            display: none;
+        }
+        .mainSec {
+            width: 100%;
+            flex-direction: column;
+        }
+        .mainSec .caption {
+            /* border:1px solid red; */
+            width: inherit;
+            flex-direction: column;
+            align-items: center;
+        }
+        /* services page */
+        .main-header .services-header-img {
+            /* border: red 1px solid;*/
+            display: none;
+        }
+        .servSection-2 img {
+            display: none;
+        }
+        .servSection-2 .servDesc {
+            /* border: black solid 1px; */
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+    }
+    /* mobile view */
+    @media (max-width: 500px) {
+        nav {
+            flex-direction: column-reverse;
+        }
+        .links {
+            /* border: lightcoral 1px solid; */
+            box-sizing: content-box;
+            width: 100%;
+            flex-direction: column;
+        }
+        .mainSec .caption {
+            /* border:1px solid red; */
+            width: inherit;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .mainSec .caption h1 {
+            font-size: 60px;
+            padding: 5px;
+        }
+        nav a {
+            border-top: grey 1px solid;
+            border-bottom: grey 1px solid;
+            width: 100%;
+            text-align: center;
+            padding: 5% 0;
+        }
+        nav img {
+            padding-bottom: 5%;
+        }
+        .content-section {
+            /* border: 1px red solid; */
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            padding-bottom: 2%;
+            border-bottom: grey 2px solid;
+        }
+        .content-section .top-box {
+            width: 90%;
+            padding: 2% 0;
+        }
+        .content-section .bottom-box {
+            width: 90%;
+            padding: 2% 0;
+        }
+        /* services page */
+        .servSec {
+            /* border: solid purple 1px; */
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            padding: 2% 0;
+            border-top: gray 2px solid;
+            border-bottom: grey 1px solid;
+        }
+        .box {
+            width: 100%;
+        }
+        .servSection-2 img {
+            display: none;
+        }
+        .servSection-2 .servDesc {
+            /* border: black solid 1px; */
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+    }
