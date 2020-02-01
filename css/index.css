@@ -8,7 +8,11 @@
         max-width: 100%;
     }
     
-    h1 {
+    h1,
+    a,
+    p,
+    ul,
+    li {
         font-size: 62.5%;
     }
     
@@ -50,7 +54,7 @@
         /* border:1px solid black; */
         text-decoration: none;
         color: grey;
-        font-size: 20px;
+        font-size: 1.5rem;
     }
     
     a:hover {
@@ -111,6 +115,7 @@
         justify-content: space-evenly;
         border-bottom: grey 2px solid;
         padding-bottom: 2%;
+        font-size: 1.5rem;
     }
     /* .content-section div{ 
     border: 1px black solid;    
@@ -143,18 +148,22 @@
     
     footer .mb {
         /* border: 1px red solid; */
+        font-size: 1rem;
         padding: 1% 0;
     }
     
     .email {
+        font-size: 1rem;
         padding-bottom: 2%;
     }
     
     .num {
+        font-size: 1rem;
         padding-bottom: 1.5%;
     }
     
     footer .copyright {
+        font-size: 1rem;
         text-align: center;
     }
     /* services page css */
@@ -171,10 +180,15 @@
         margin-bottom: 2%;
     }
     
+    .servHead h1 {
+        font-size: 4rem;
+    }
+    
     .servHead .desc {
         /* border: green 1px solid; */
         width: 100%;
         padding: 2% 0;
+        font-size: 1.5rem;
     }
     
     .main-header .services-header-img {
@@ -191,6 +205,14 @@
         padding: 2% 0;
         border-top: gray 2px solid;
         border-bottom: grey 2px solid;
+    }
+    
+    .servSec h3 {
+        font-size: 2rem;
+    }
+    
+    .servSec p {
+        font-size: 1rem;
     }
     
     .servSec .section-1 {
@@ -232,6 +254,15 @@
         justify-content: space-between;
     }
     
+    .servSection-2 h3 {
+        font-size: 2rem;
+    }
+    
+    .servSection-2 p,
+    li {
+        font-size: 1rem;
+    }
+    
     .servSection-2 ul {
         /* border: black solid 1px; */
         width: 80%;
@@ -255,6 +286,9 @@
             /* border: lightcoral 1px solid; */
             padding-top: 2%;
         }
+        nav .links a {
+            font-size: 1.25rem;
+        }
         .mainSec img {
             display: none;
         }
@@ -267,6 +301,28 @@
             width: inherit;
             flex-direction: column;
             align-items: center;
+        }
+        .mainSec .caption h1 {
+            font-size: 4rem;
+        }
+        .content-section {
+            font-size: 1.35rem;
+        }
+        footer .mb {
+            /* border: 1px red solid; */
+            font-size: .8rem;
+            padding: 1% 0;
+        }
+        .email {
+            font-size: .8rem;
+            padding-bottom: 1.5%;
+        }
+        .num {
+            font-size: .8rem;
+            padding-bottom: 1.5%;
+        }
+        footer .copyright {
+            font-size: .8rem;
         }
         /* services page */
         .main-header .services-header-img {
@@ -282,6 +338,22 @@
             display: flex;
             flex-direction: column;
             justify-content: space-between;
+        }
+        .servHead h1 {
+            font-size: 3.5rem;
+        }
+        .servSection-2 h3 {
+            font-size: 1.25rem;
+        }
+        .servSection-2 p,
+        li {
+            font-size: .75rem;
+        }
+        .servSec h3 {
+            font-size: 1.5rem;
+        }
+        .servSec p {
+            font-size: .75rem;
         }
     }
     /* mobile view */
@@ -304,15 +376,16 @@
             align-items: center;
         }
         .mainSec .caption h1 {
-            font-size: 60px;
+            font-size: 3.75rem;
             padding: 5px;
         }
-        nav a {
+        nav .links a {
             border-top: grey 1px solid;
             border-bottom: grey 1px solid;
             width: 100%;
             text-align: center;
             padding: 5% 0;
+            font-size: 1.10rem;
         }
         nav img {
             padding-bottom: 5%;
