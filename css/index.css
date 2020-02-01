@@ -9,7 +9,7 @@
     }
     
     h1 {
-        padding: 2% 0;
+        font-size: 62.5%;
     }
     
     h3 {
@@ -59,17 +59,12 @@
     
     .mainSec {
         /* border:1px solid red;*/
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        padding-bottom: 2%;
-        border-bottom: 2px solid grey;
-    }
-    
-    .mainSec {
         width: 100%;
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
+        padding-bottom: 2%;
+        border-bottom: 2px solid grey;
         align-items: center;
         text-align: center;
     }
@@ -83,7 +78,8 @@
     }
     
     .mainSec .caption h1 {
-        font-size: 75px;
+        text-align: center;
+        font-size: 5rem;
         padding: 5px;
     }
     
@@ -96,8 +92,13 @@
         background-color: aqua;
     }
     
-    .header-Img {
-        height: inherit;
+    .headImg {
+        width: 48%;
+        padding-left: 2.5%;
+    }
+    
+    .headImg .header-img {
+        height: 300px;
     }
     /* */
     /* content css */
