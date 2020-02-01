@@ -1,3 +1,432 @@
-/* Use your own code or past solution for Great Idea Web Page CSS here! */
-
-
+    /* Use your own code or past solution for Great Idea Web Page CSS here! */
+    /**/
+    
+    * {
+        /* border:1px solid red; */
+        padding: 0;
+        margin: 0;
+        max-width: 100%;
+    }
+    
+    h1,
+    a,
+    p,
+    ul,
+    li {
+        font-size: 62.5%;
+    }
+    
+    h3 {
+        padding: 2% 0;
+    }
+    
+    .container {
+        width: 90%;
+        padding: 20px 1%;
+        margin: 0 auto;
+    }
+    /* Header css */
+    /*  */
+    
+    header {
+        box-sizing: content-box;
+        /* border:1px solid black;*/
+    }
+    
+    nav {
+        display: flex;
+        flex-direction: row;
+        padding-top: 2%;
+    }
+    
+    .links {
+        box-sizing: content-box;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-bottom: 2%;
+    }
+    
+    .links a {
+        /* border:1px solid black; */
+        text-decoration: none;
+        color: grey;
+        font-size: 1.5rem;
+    }
+    
+    a:hover {
+        color: red;
+    }
+    
+    .mainSec {
+        /* border:1px solid red;*/
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-bottom: 2%;
+        border-bottom: 2px solid grey;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .mainSec .caption {
+        /* border:1px solid red; */
+        width: 48%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .mainSec .caption h1 {
+        text-align: center;
+        font-size: 5rem;
+        padding: 5px;
+    }
+    
+    .btn {
+        text-align: center;
+        width: max-content;
+    }
+    
+    .btn:hover {
+        background-color: aqua;
+    }
+    
+    .headImg {
+        width: 48%;
+        padding-left: 2.5%;
+    }
+    
+    .headImg .header-img {
+        height: 300px;
+    }
+    /* */
+    /* content css */
+    
+    .content-section {
+        /* border: 1px red solid; */
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        border-bottom: grey 2px solid;
+        padding-bottom: 2%;
+        font-size: 1.5rem;
+    }
+    /* .content-section div{ 
+    border: 1px black solid;    
+}*/
+    
+    .content-section .top-box {
+        width: 40%;
+    }
+    
+    .content-section .bottom-box {
+        width: 25%;
+    }
+    
+    .content-section .midImg {
+        padding: 5% 0;
+        width: 100%;
+    }
+    
+    .content-section .middle-img {
+        width: 100%;
+    }
+    /* footer css */
+    /* footer{ 
+    border: 1px black solid;
+}*/
+    
+    footer {
+        margin-top: 1.5%;
+    }
+    
+    footer .mb {
+        /* border: 1px red solid; */
+        font-size: 1rem;
+        padding: 1% 0;
+    }
+    
+    .email {
+        font-size: 1rem;
+        padding-bottom: 2%;
+    }
+    
+    .num {
+        font-size: 1rem;
+        padding-bottom: 1.5%;
+    }
+    
+    footer .copyright {
+        font-size: 1rem;
+        text-align: center;
+    }
+    /* services page css */
+    
+    .servImg {
+        width: 100%;
+    }
+    
+    .servHead {
+        /* border: #333 1px solid; */
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2%;
+    }
+    
+    .servHead h1 {
+        font-size: 4rem;
+    }
+    
+    .servHead .desc {
+        /* border: green 1px solid; */
+        width: 100%;
+        padding: 2% 0;
+        font-size: 1.5rem;
+    }
+    
+    .main-header .services-header-img {
+        /* border: blue 1px solid;*/
+        width: 100%;
+        height: 250px;
+    }
+    
+    .servSec {
+        /* border: solid purple 1px; */
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 2% 0;
+        border-top: gray 2px solid;
+        border-bottom: grey 2px solid;
+    }
+    
+    .servSec h3 {
+        font-size: 2rem;
+    }
+    
+    .servSec p {
+        font-size: 1rem;
+    }
+    
+    .servSec .section-1 {
+        /* border: solid purple 1px; */
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
+    .box {
+        border: black solid 1px;
+        background-color: lightgrey;
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 1.5% 0;
+    }
+    
+    .btn {
+        width: max-content;
+        margin: 1.5%;
+    }
+    
+    .servSection-2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        padding: 2% 0;
+    }
+    
+    .servSection-2 .servDesc {
+        /* border: black solid 1px; */
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .servSection-2 h3 {
+        font-size: 2rem;
+    }
+    
+    .servSection-2 p,
+    li {
+        font-size: 1rem;
+    }
+    
+    .servSection-2 ul {
+        /* border: black solid 1px; */
+        width: 80%;
+        align-items: center;
+        list-style-position: inside;
+    }
+    
+    .serList li {
+        /* border: black solid 1px; */
+        padding: 1%;
+    }
+    /* media Q */
+    /* table view */
+    
+    @media (max-width: 800px) {
+        nav {
+            flex-direction: column-reverse;
+            align-items: center;
+        }
+        .links {
+            /* border: lightcoral 1px solid; */
+            padding-top: 2%;
+        }
+        nav .links a {
+            font-size: 1.25rem;
+        }
+        .mainSec img {
+            display: none;
+        }
+        .mainSec {
+            width: 100%;
+            flex-direction: column;
+        }
+        .mainSec .caption {
+            /* border:1px solid red; */
+            width: inherit;
+            flex-direction: column;
+            align-items: center;
+        }
+        .mainSec .caption h1 {
+            font-size: 4rem;
+        }
+        .content-section {
+            font-size: 1.35rem;
+        }
+        footer .mb {
+            /* border: 1px red solid; */
+            font-size: .8rem;
+            padding: 1% 0;
+        }
+        .email {
+            font-size: .8rem;
+            padding-bottom: 1.5%;
+        }
+        .num {
+            font-size: .8rem;
+            padding-bottom: 1.5%;
+        }
+        footer .copyright {
+            font-size: .8rem;
+        }
+        /* services page */
+        .main-header .services-header-img {
+            /* border: red 1px solid;*/
+            display: none;
+        }
+        .servSection-2 img {
+            display: none;
+        }
+        .servSection-2 .servDesc {
+            /* border: black solid 1px; */
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .servHead h1 {
+            font-size: 3.5rem;
+        }
+        .servSection-2 h3 {
+            font-size: 1.25rem;
+        }
+        .servSection-2 p,
+        li {
+            font-size: .75rem;
+        }
+        .servSec h3 {
+            font-size: 1.5rem;
+        }
+        .servSec p {
+            font-size: .75rem;
+        }
+    }
+    /* mobile view */
+    
+    @media (max-width: 500px) {
+        nav {
+            flex-direction: column-reverse;
+        }
+        .links {
+            /* border: lightcoral 1px solid; */
+            box-sizing: content-box;
+            width: 100%;
+            flex-direction: column;
+        }
+        .mainSec .caption {
+            /* border:1px solid red; */
+            width: inherit;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .mainSec .caption h1 {
+            font-size: 3.75rem;
+            padding: 5px;
+        }
+        nav .links a {
+            border-top: grey 1px solid;
+            border-bottom: grey 1px solid;
+            width: 100%;
+            text-align: center;
+            padding: 5% 0;
+            font-size: 1.10rem;
+        }
+        nav img {
+            padding-bottom: 5%;
+        }
+        .content-section {
+            /* border: 1px red solid; */
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            padding-bottom: 2%;
+            border-bottom: grey 2px solid;
+        }
+        .content-section .top-box {
+            width: 90%;
+            padding: 2% 0;
+        }
+        .content-section .bottom-box {
+            width: 90%;
+            padding: 2% 0;
+        }
+        /* services page */
+        .servSec {
+            /* border: solid purple 1px; */
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            padding: 2% 0;
+            border-top: gray 2px solid;
+            border-bottom: grey 1px solid;
+        }
+        .box {
+            width: 100%;
+        }
+        .servSection-2 img {
+            display: none;
+        }
+        .servSection-2 .servDesc {
+            /* border: black solid 1px; */
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+    }
